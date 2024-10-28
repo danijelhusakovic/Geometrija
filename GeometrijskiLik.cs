@@ -1,12 +1,6 @@
-﻿public class GeometrijskiLik
+﻿public abstract class GeometrijskiLik
 {
-    public double Opseg()
-    {
-        return 0;
-    }
+    public abstract double Opseg();
 
-    public double Povrsina()
-    {
-        return 0;
-    }
+    public abstract double Povrsina();
 }

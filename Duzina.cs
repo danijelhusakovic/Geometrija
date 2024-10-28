@@ -8,9 +8,11 @@
         this.B = B;
     }
 
+    /// <summary>
+    /// Calculates the length
+    /// </summary>
     public double Duljina()
     {
-        //TODO: Implement ovo
-        return 0;
+        return Math.Sqrt(Math.Pow(B.X - A.X, 2) + Math.Pow(B.Y - A.Y, 2));
     }
 }
