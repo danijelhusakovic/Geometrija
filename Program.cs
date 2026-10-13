@@ -1,10 +1,7 @@
-﻿namespace Geometrija
+﻿public class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        Tocka a = new Tocka(3, 4);
     }
 }
