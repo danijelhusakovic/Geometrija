@@ -9,5 +9,8 @@
         Trokut t = new Trokut(a, b, c);
 
         //Kruznica k = new Kruznica(a, 10);
+
+        // Ne može se napraviti objekt od apstraktne klase
+        //Oblik o = new Oblik();
     }
 }
