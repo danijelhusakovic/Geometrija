@@ -1,4 +1,4 @@
-﻿public class Kruznica
+﻿public class Kruznica : Oblik
 {
     public Tocka S;
     public double radijus;
@@ -7,5 +7,11 @@
     {
         this.S = S;
         this.radijus = radijus;
+    }
+
+    public override double Opseg()
+    {
+        Console.WriteLine("Opseg kruznice");
+        return 0;
     }
 }

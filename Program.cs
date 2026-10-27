@@ -2,15 +2,19 @@
 {
     static void Main(string[] args)
     {
-        Tocka a = new Tocka(3, 4);
+        Tocka a = new Tocka(0, 0);
         Tocka b = new Tocka(0, 0);
-        Tocka c = new Tocka(4, 3);
+        Tocka c = new Tocka(0, 0);
 
-        Trokut t = new Trokut(a, b, c);
+        Oblik[] oblici = new Oblik[3];
 
-        //Kruznica k = new Kruznica(a, 10);
+        oblici[0] = new Trokut(a, b, c);
+        oblici[1] = new Kruznica(a, 10);
 
-        // Ne može se napraviti objekt od apstraktne klase
-        //Oblik o = new Oblik();
+        // Prikaz itema
+        for(int i = 0; i < 2; i++)
+        {
+            oblici[i].Opseg();
+        }
     }
 }
